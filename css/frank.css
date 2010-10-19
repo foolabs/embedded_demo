@@ -1,0 +1,65 @@
+body {
+  color: #222222;
+  font-family: Helvetica, Arial;
+  font-size: 14px;
+  line-height: 20px; }
+
+ul, ol {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  margin: 0 0 10px;
+  font: bold 72px Georgia; }
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 32px;
+  color: #cecece; }
+
+em {
+  color: #4d9eef;
+  font-family: Inconsolata, Monaco, monospace;
+  font-style: normal; }
+
+#wrapper {
+  position: relative;
+  width: 600px;
+  margin: 0px auto; }
+  #wrapper #tooltip {
+    position: absolute;
+    top: 80px;
+    left: 380px;
+    color: #4d9eef;
+    font-weight: bold;
+    z-index: 20;
+    cursor: pointer; }
+  #wrapper #header, #wrapper #help {
+    position: absolute;
+    left: 300px;
+    width: 300px;
+    margin-left: -150px; }
+  #wrapper #header {
+    width: 350px;
+    height: 600px;
+    margin-left: -175px;
+    background: white;
+    z-index: 10;
+    top: 60px;
+    cursor: pointer; }
+    #wrapper #header h2 {
+      width: 300px; }
+    #wrapper #header img {
+      margin-left: -25px; }
+    #wrapper #header h1 {
+      margin-left: -3px; }
+  #wrapper #help {
+    top: 150px;
+    border-top: 1px #7a7a7a solid; }
+    #wrapper #help li {
+      font-weight: bold;
+      color: #dddddd; }
+      #wrapper #help li p {
+        font-weight: normal;
+        color: #222222; }
