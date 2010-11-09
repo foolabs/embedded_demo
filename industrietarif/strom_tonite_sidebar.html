@@ -109,7 +109,29 @@
 <div class='narrow' id='content'>
 
 
-<p>In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed ut dui. Morbi malesuada nulla nec purus convallis consequat. Vivamus id mollis quam. Morbi ac commodo nulla. In condimentum orci id nisl volutpat bibendum. Quisque commodo hendrerit lorem quis egestas. Maecenas quis tortor arcu. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo.</p>
+<h1>Strom</h1>
+<h2>Industrietarif.de kann Ihnen einen günstigen Stromanbieter vermitteln, falls Ihr jährlicher Verbrauch über ca. 100.000 kWh liegt. Denn dann schwankt Ihr individueller Strompreis mit den Kursen an der Leipziger Energiebörse.</h2>
+<p>Der Strompreis an der Leipziger Energiebörse ist seit Jahresbeginn um 11,7% gesunken (Cal-11-Base).</p>
+<div class='boxed'>
+<h2>Strompreisentwicklung seit Jahresbeginn</h2>
+<div id='container'></div>
+<span class='source'>
+Quelle: EEX
+</span>
+</div>
+<p>Sie erhalten von Industrietarif.de binnen weniger Arbeitstage einen transparenten, übersichtlichen Preisspiegel. Er enthält bis zu 10 individuelle Angebote von Energieversorgern, die auf Ihren Bedarf spezialisiert sind.</p>
+<p class='boxed'>Sichern Sie sich jetzt Ihren Strompreis, oder prüfen Sie unverbindlich die aktuelle Marktlage!</p>
+<p>Fordern Sie unser Industrietarif.de-Angebot an und gewinnen Sie vielleicht einen Fluggutschein im Wert von EUR 100,-!</p>
+<p><a href="/angebot_anfordern" class="more">Angebot anfordern</a></p>
+
+<hr />
+<div id='rate_this_page'>
+<a class='xing' href='https://www.xing.com/app/user?op=share;url=http%3A%2F%2Fwww.industrietarif.de;title=Industrietarif.de+bietet+Strom-Sonderangebote;provider=Industrietarif.de' rel='external'>
+Diese Seite interessiert mich!
+<br />
+Industrietarif.de auf Xing:
+<img src='images/right_sidebar/xing.png' />
+</a>
 
 <div style='clear:both'></div>
 </div>
@@ -129,6 +151,22 @@
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+<script src="javascripts/highcharts.js" type="text/javascript"></script>
+<script src="javascripts/highcharts_settings.de.js" type="text/javascript"></script>
+<script type='text/javascript'>
+  //<![CDATA[
+    $(document).ready(function() {
+      var graph = new BaseGraph();
+      graph.series = [{
+          color: '#3D5B91',
+          data: [[1262559600000,52.78],[1262646000000,52.4],[1262732400000,51.73],[1262818800000,52.2],[1262905200000,51.91],[1263164400000,51.35],[1263250800000,50.6],[1263337200000,50.12],[1263423600000,50.29],[1263510000000,49.93],[1263769200000,49.7],[1263855600000,50.11],[1263942000000,49.76],[1264028400000,49.63],[1264114800000,49.07],[1264374000000,49.56],[1264460400000,49.27],[1264546800000,50.04],[1264633200000,49.5],[1264719600000,49.42],[1264978800000,48.88],[1265065200000,48.53],[1265151600000,48.5],[1265238000000,48.27],[1265324400000,48.19],[1265583600000,47.83],[1265670000000,48.39],[1265756400000,48.12],[1265842800000,47.79],[1265929200000,47.65],[1266188400000,47.46],[1266274800000,48.23],[1266361200000,48.25],[1266447600000,47.96],[1266534000000,47.72],[1266793200000,47.5],[1266879600000,47.15],[1266966000000,47.58],[1267052400000,47.45],[1267138800000,47.5],[1267398000000,47.8],[1267484400000,47.75],[1267570800000,47.53],[1267657200000,47.1],[1267743600000,46.9],[1268002800000,46.4],[1268089200000,45.93],[1268175600000,46.37],[1268262000000,46.04],[1268348400000,46.28],[1268607600000,46.2],[1268694000000,46.4],[1268780400000,46.11],[1268866800000,45.77],[1268953200000,45.58],[1269212400000,45.8],[1269298800000,45.68],[1269385200000,45.24],[1269471600000,45.32],[1269558000000,45.36],[1269813600000,45.24],[1269900000000,45.19],[1269986400000,45.6],[1270072800000,45.8],[1270504800000,46.83],[1270591200000,47.49],[1270677600000,47.71],[1270764000000,48.45],[1271023200000,47.89],[1271109600000,47.55],[1271196000000,48.6],[1271282400000,49.34],[1271368800000,49.14],[1271628000000,48.99],[1271714400000,49.51],[1271800800000,50.67],[1271887200000,49.89],[1271973600000,50.57],[1272232800000,52.31],[1272319200000,52.87],[1272405600000,52.24],[1272492000000,51.99],[1272578400000,52.35],[1272837600000,54.32],[1272924000000,54.0],[1273010400000,53.55],[1273096800000,54.47],[1273183200000,54.59],[1273442400000,53.93],[1273528800000,52.2],[1273615200000,51.8],[1273788000000,52.15],[1274047200000,51.0],[1274133600000,51.74],[1274220000000,51.39],[1274306400000,50.82],[1274392800000,51.12],[1274738400000,51.81],[1274824800000,52.0],[1274911200000,51.9],[1274997600000,51.64],[1275256800000,51.1],[1275343200000,51.23],[1275429600000,51.67],[1275516000000,52.53],[1275602400000,53.4],[1275861600000,54.26],[1275948000000,54.54],[1276034400000,54.76],[1276120800000,54.1],[1276207200000,53.45],[1276466400000,54.36],[1276552800000,54.94],[1276639200000,54.22],[1276725600000,54.51],[1276812000000,54.54],[1277071200000,55.13],[1277157600000,53.91],[1277244000000,53.18],[1277330400000,52.79],[1277416800000,52.34],[1277676000000,53.15],[1277762400000,53.26],[1277848800000,53.23],[1277935200000,53.22],[1278021600000,52.75],[1278280800000,52.55],[1278367200000,51.91],[1278453600000,51.42],[1278540000000,51.79],[1278626400000,51.85],[1278885600000,51.37],[1278972000000,51.21],[1279058400000,50.99],[1279144800000,51.07],[1279231200000,51.26],[1279490400000,50.86],[1279576800000,49.91],[1279663200000,49.45],[1279749600000,50.2],[1279836000000,49.65],[1280095200000,49.34],[1280181600000,49.31],[1280268000000,49.54],[1280354400000,50.46],[1280440800000,50.6],[1280700000000,51.39],[1280786400000,51.63],[1280872800000,51.44],[1280959200000,51.45],[1281045600000,51.08],[1281304800000,50.92],[1281391200000,50.85],[1281477600000,50.52],[1281564000000,50.13],[1281650400000,50.3],[1281909600000,49.68],[1281996000000,50.06],[1282082400000,49.63],[1282168800000,50.33],[1282255200000,50.51],[1282514400000,50.69],[1282600800000,50.25],[1282687200000,50.69],[1282773600000,51.21],[1282860000000,51.19],[1283119200000,51.73],[1283205600000,51.1],[1283292000000,50.65],[1283378400000,51.25],[1283464800000,51.57],[1283724000000,50.72],[1283810400000,50.64],[1283896800000,50.47],[1283983200000,50.37],[1284069600000,49.78],[1284328800000,50.21],[1284415200000,50.0],[1284501600000,50.3],[1284588000000,49.97],[1284674400000,49.99],[1284933600000,49.51],[1285020000000,49.36],[1285106400000,49.35],[1285192800000,49.13],[1285279200000,49.6],[1285538400000,49.62],[1285624800000,49.67],[1285711200000,49.78],[1285797600000,49.92],[1285884000000,49.55],[1286143200000,49.41],[1286229600000,49.35],[1286316000000,49.21],[1286402400000,49.04],[1286488800000,48.79],[1286748000000,49.06],[1286834400000,48.64],[1286920800000,48.7],[1287007200000,48.44],[1287093600000,48.35],[1287352800000,48.14],[1287439200000,47.91],[1287525600000,48.04],[1287612000000,47.91],[1287698400000,47.81],[1287957600000,48.08],[1288044000000,48.12],[1288130400000,48.16],[1288216800000,47.75],[1288303200000,47.28],[1288566000000,47.44],[1288652400000,47.51],[1288738800000,47.49],[1288825200000,47.1],[1288911600000,47.01],[1289170800000,46.62]]
+      }];
+      graph.yAxis.title.style = { color: '#3D5B91' };
+
+      var chart = new Highcharts.Chart(graph);
+    });
+  //]]>
+</script>
 </body>
 </html>
 
