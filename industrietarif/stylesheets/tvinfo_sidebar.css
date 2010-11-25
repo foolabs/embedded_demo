@@ -1,0 +1,51 @@
+#right_sidebar {
+  height: auto;
+}
+
+#tvinfo .show {
+  position: relative;
+  padding-left: 85px;
+  margin-bottom: 2em;
+}
+
+#tvinfo h1 {
+  color: #3D5B91;
+}
+
+#tvinfo h2 {
+  font-size: 11px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#tvinfo h2 a {
+  color: #4D6B99;
+  text-decoration: none;
+}
+
+#tvinfo {
+  font-size: 90%;
+}
+
+#tvinfo .show img {
+  max-width: 80px;
+  max-height: 50px;
+  vertical-align: middle;
+}
+
+#tvinfo .show .thumb {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#tvinfo .show .remaining {
+  display: block;
+  color: red;
+}
+
+#tvinfo .footer img {
+  height: 1em; }
+
+#tvinfo .footer a {
+  text-decoration: none; }

@@ -1,0 +1,35 @@
+#tvinfo .show {
+  position: relative;
+  margin-bottom: 2em;
+  padding-left: 95px;
+}
+
+#tvinfo .station.group {
+  border: thin solid #90A0A9;
+  border-radius: 5px;
+  padding: 11px;
+  margin-bottom: 1em;
+}
+
+#tvinfo .show img {
+  max-width: 80px;
+  max-height: 50px;
+  vertical-align: middle;
+}
+
+#tvinfo .show .thumb {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#tvinfo .show .remaining {
+  display: block;
+  color: red;
+}
+
+#tvinfo .footer img {
+  height: 1em; }
+
+#tvinfo .footer a {
+  text-decoration: none; }
