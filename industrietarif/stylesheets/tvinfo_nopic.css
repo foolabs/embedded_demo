@@ -5,6 +5,8 @@
 
 #tvinfo .station.group {
   border: thin solid #90A0A9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
   border-radius: 5px;
   padding: 11px;
   margin-bottom: 1em;

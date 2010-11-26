@@ -1,3 +1,7 @@
+#tvinfo {
+  margin-bottom: 2em;
+}
+
 #tvinfo .show {
   position: relative;
   margin-bottom: 2em;
@@ -6,6 +10,8 @@
 
 #tvinfo .station.group {
   border: thin solid #90A0A9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
   border-radius: 5px;
   padding: 11px;
   margin-bottom: 1em;
