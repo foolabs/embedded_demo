@@ -72,7 +72,7 @@
 </div>
 <div id='right_sidebar'>
 
-<script src='http://warm-warrior-24.heroku.com/shows/now.js?token=abcdefg'></script>
+<div id='tvinfo_wrapper'></div>
 
 </div>
 
@@ -137,6 +137,15 @@ Industrietarif.de auf Xing:
       var chart = new Highcharts.Chart(graph);
     });
   //]]>
+</script>
+<script>
+$(document).ready(function() {
+  $.getJSON('http://warm-warrior-24.heroku.com/shows/now.jsonp?callback=?', {token:'abcdefg'}, insertTvinfo);
+});
+
+var insertTvinfo = function(data) {
+  $('#tvinfo_wrapper').hide().html(data).fadeIn('slow');
+};
 </script>
 </body>
 </html>

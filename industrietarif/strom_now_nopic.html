@@ -98,7 +98,7 @@ RSS
 
 <div class='narrow' id='content'>
 
-<script src='http://warm-warrior-24.heroku.com/shows/now.js?token=abcdefg'></script>
+<div id='tvinfo_wrapper'></div>
 
 <div style='clear:both'></div>
 </div>
@@ -112,6 +112,15 @@ RSS
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+<script>
+$(document).ready(function() {
+  $.getJSON('http://warm-warrior-24.heroku.com/shows/now.jsonp?callback=?', {token:'abcdefg'}, insertTvinfo);
+});
+
+var insertTvinfo = function(data) {
+  $('#tvinfo_wrapper').hide().html(data).fadeIn('slow');
+};
+</script>
 </body>
 </html>
 
