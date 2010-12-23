@@ -47,3 +47,14 @@
 
 #tvinfo .footer a {
   text-decoration: none; }
+
+#tvinfo iframe {
+  border: none;
+  width: 325px;
+  height: 60px;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
